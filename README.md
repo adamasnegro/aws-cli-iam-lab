@@ -1,7 +1,7 @@
 ☁️ Instalação e Configuração da AWS CLI no Linux Red Hat
 
 <p align="center">
-<img src="img/00-diagrama01.png" alt="Diagrama da arquitetura do laboratório AWS CLI e IAM" width="850">
+<img src="img/00-diagrama01.png" alt="Diagrama da arquitetura AWS CLI e IAM" width="850">
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ Conexão remota realizada com sucesso na instância Linux Red Hat utilizando o u
 
 Para instalar a AWS CLI v2, foi realizado o download do pacote oficial disponibilizado pela Amazon.
 
-Comando utilizado:
+Download do instalador:
 
 bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
