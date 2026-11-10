@@ -1,9 +1,3 @@
-☁️ Instalação e Configuração da AWS CLI no Linux Red Hat
-
-<p align="center">
-<img src="img/00-diagrama01.png" alt="Diagrama da arquitetura AWS CLI e IAM" width="850">
-</p>
-
 <p align="center">
 <strong>Laboratório prático de Cloud Computing | Amazon Web Services (AWS)</strong>
 </p>
@@ -40,7 +34,9 @@ A conexão com a instância é realizada por SSH. Após a instalação e configu
 
 Diagrama da arquitetura
 
-!Diagrama da arquitetura AWS
+<p align="center">
+<img src="img/00-diagrama01.png" alt="Diagrama da arquitetura AWS" width="850">
+</p>
 
 2. Conexão SSH com a instância EC2
 
@@ -54,13 +50,17 @@ Evidência 01 — Instância EC2
 
 Visualização das informações da instância EC2 e identificação do endereço IP público utilizado na conexão.
 
-!Instância EC2
+<p align="center">
+<img src="img/01-instancia-ec2.png" alt="Evidência 01 - Instância EC2" width="850">
+</p>
 
 Evidência 02 — Conexão SSH estabelecida
 
 Conexão remota realizada com sucesso na instância Linux Red Hat utilizando o usuário ec2-user.
 
-!Conexão SSH
+<p align="center">
+<img src="img/02-conexao-ssh.png" alt="Evidência 02 - Conexão SSH" width="850">
+</p>
 
 3. Instalação da AWS CLI
 
@@ -96,7 +96,9 @@ aws --version
 
 O comando permite verificar a versão instalada da AWS CLI e confirmar que a ferramenta está disponível no terminal.
 
-!Validação da AWS CLI
+<p align="center">
+<img src="img/03-validacao-aws-cli.png" alt="Evidência 03 - Validação da AWS CLI" width="850">
+</p>
 
 4. Análise das permissões do AWS IAM
 
@@ -108,7 +110,9 @@ Evidência 04 — Política de permissões IAM
 
 Visualização da política lab_policy no formato JSON, permitindo observar as permissões concedidas ao usuário.
 
-!Política IAM
+<p align="center">
+<img src="img/04-politica-iam.png" alt="Evidência 04 - Política de permissões IAM" width="850">
+</p>
 
 Evidência 05 — Credenciais de segurança IAM
 
@@ -116,7 +120,9 @@ Na guia Security credentials, foram observadas as informações relacionadas às
 
 Essa etapa permitiu compreender a relação entre as credenciais de acesso e a autenticação realizada pela AWS CLI.
 
-!Credenciais IAM
+<p align="center">
+<img src="img/05-credenciais-iam.png" alt="Evidência 05 - Credenciais de segurança IAM" width="850">
+</p>
 
 5. Configuração da AWS CLI
 
@@ -151,7 +157,9 @@ Evidência 06 — Configuração da AWS CLI
 
 Verificação dos parâmetros de configuração da AWS CLI, incluindo região padrão e formato de saída JSON.
 
-!Configuração AWS CLI
+<p align="center">
+<img src="img/06-configuracao-aws-cli.png" alt="Evidência 06 - Configuração da AWS CLI" width="850">
+</p>
 
 6. Consulta aos usuários do IAM utilizando AWS CLI
 
@@ -169,7 +177,9 @@ Evidência 07 — Consulta ao IAM via AWS CLI
 
 Resultado da execução do comando aws iam list-users, demonstrando a comunicação entre a AWS CLI e o serviço IAM.
 
-!Consulta aos usuários IAM
+<p align="center">
+<img src="img/07-consulta-iam-cli.png" alt="Evidência 07 - Consulta aos usuários IAM" width="850">
+</p>
 
 ✅ Resultados alcançados
 
